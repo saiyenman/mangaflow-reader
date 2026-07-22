@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Manga Reader — Swipe. Zoom. Read." },
+      { name: "description", content: "MangaFlow Reader is a mobile-first, dark-themed React application for reading manga." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Manga Reader — Swipe. Zoom. Read." },
+      { property: "og:description", content: "MangaFlow Reader is a mobile-first, dark-themed React application for reading manga." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Manga Reader — Swipe. Zoom. Read." },
+      { name: "twitter:description", content: "MangaFlow Reader is a mobile-first, dark-themed React application for reading manga." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8474c816-edcc-4112-8786-5804618a5379/id-preview-61322f44--d382e3fd-8305-4af8-b52c-2a4a7ce8ce77.lovable.app-1784751586636.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/8474c816-edcc-4112-8786-5804618a5379/id-preview-61322f44--d382e3fd-8305-4af8-b52c-2a4a7ce8ce77.lovable.app-1784751586636.png" },
     ],
     links: [
       {

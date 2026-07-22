@@ -8,13 +8,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "A mobile-first dark manga reader with RTL support, pinch-to-zoom, and fullscreen reading.",
+          "MangaFlow Reader is a mobile-first, dark-themed React application for reading manga.",
       },
       { property: "og:title", content: "Manga Reader — Swipe. Zoom. Read." },
       {
         property: "og:description",
         content:
-          "A mobile-first dark manga reader with RTL support, pinch-to-zoom, and fullscreen reading.",
+          "MangaFlow Reader is a mobile-first, dark-themed React application for reading manga.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
